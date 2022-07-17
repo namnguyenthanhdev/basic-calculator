@@ -37,9 +37,16 @@ body {
 }
 
 .calculator > .output {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+
+
     height: 100px;
     border-radius: 10px;
     background-color: rgb(141, 158, 116);
+    font-size: 100px;
+
 }
 
 
